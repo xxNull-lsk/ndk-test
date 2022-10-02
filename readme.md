@@ -45,7 +45,7 @@ cmake \
 
 - `hello.h`
 
-```c++
+```c
 #ifndef HELLO_H
 #define HELLO_H
 
@@ -56,7 +56,7 @@ void hello(const char* msg);
 
 - `hello.cpp`
 
-```c++
+```c
 #include <iostream>
 #include "hello.h"
 
@@ -67,7 +67,7 @@ void hello(const char* msg){
 
 - `main.cpp`
 
-```c++
+```c
 #include <iostream>
 #include "hello.h"
 
