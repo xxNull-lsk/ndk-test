@@ -1,6 +1,10 @@
 #include <iostream>
 #include "hello.h"
 
-void hello(const char* msg){
-    std::cout << "hello " << msg << std::endl;
+std::string xxx;
+
+const char* hello(const char* msg){
+    xxx = "hello ";
+    xxx += msg;
+    return xxx.c_str();
 }

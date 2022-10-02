@@ -1,6 +1,8 @@
 #ifndef HELLO_H
 #define HELLO_H
+extern "C" {
 
-void hello(const char* msg);
+const char* hello(const char* msg);
 
+}
 #endif
