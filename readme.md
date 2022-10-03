@@ -1,2 +1,2 @@
-- [使用NDK编译C/C++项目](https://blog.mydata.top/admin/write-post.php?cid=58)
-- 
+- [使用NDK编译C/C++项目](https://blog.mydata.top/index.php/ndk_001.html)
+- [flutter调用C/C++](https://blog.mydata.top/index.php/ndk_002.html)
