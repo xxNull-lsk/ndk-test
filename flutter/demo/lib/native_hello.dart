@@ -9,7 +9,7 @@ class HelloNative {
       ? DynamicLibrary.open("libhello.so")
       : DynamicLibrary.process();
   late Hello fnHello;
-  void init() {
+  HelloNative() {
     fnHello = dylib.lookupFunction<Hello, Hello>('hello');
   }
 
